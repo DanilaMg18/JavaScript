@@ -1,19 +1,24 @@
+let boolean = 2 > 3
+
+console.log(boolean)
+
 
 function sum() {
-let a = 11
-let b = 23
-return a + b
+    let a = 11
+    let b = 23
+    return a + b
 }
 
 let result = sum()
 
 console.log(result)
 
-function multiply() {
-    let a = 4
-    let b = 2
-    return a * b
+const PI = 3.14
 
+function multiply() {
+    let b = 2
+    let x = b * PI
+    return x
 }
 
 let result2 = multiply()
