@@ -1,27 +1,93 @@
-body {
-    background-color: beige;
-}
 
-.wrapper {
-    display: flex;
+  .wrapper {
     padding-top: 50px;
+    display: flex;
     justify-content: center;
-    gap: 40px;
     width: 100%;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://tse4.mm.bing.net/th?id=OIP.PCSYvVxnMUtyCtAouhFhMwHaE7&pid=Api&P=0);
+  }
+  
+  .card {
+    border: 1px solid lightgrey;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 1px 3px 18px 2px #000000;
+    background: #fff;
+    padding-bottom: 30px;
+    height: 700px;
+    width: 400px;
+  }
+  
+  .card .heading {
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .heading, .desc-block, .action-block {
+    padding: 0 10px
+  }
+  
+  .desc-block {
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+  
+  .action-block {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .action-block .cart {
+    background-color: rgb(67, 75, 67);
+    text-transform: uppercase;
+    padding: 10px 40px;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
 }
 
-.one {
+.navigation {
+    text-align: center;
+}
+
+.block1ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    font-weight: 700px;
+    margin-right: 32px;
+    font-size: 22px;
+    line-height: 29px;
+    font-style: normal;
+}
+
+.navli.active {
+    color: red;
+    font-size: 30px;
+  }
+
+header {
+    padding: 50px 200px 50px 200px;
+    margin-left: 350px;
+}
+
+.navli {
     cursor: pointer;
 }
+  
 
-.wrapper>div {
-    width: 150px;
-    height: 150px;
-    border: 5px solid lime;
-    justify-content: center;
-    font-size: 40px;
-    border-radius: 8px;
-    align-items: center;
-    display: flex;
-    color: magenta;
-}
+  
